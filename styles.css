@@ -620,9 +620,15 @@ article {
 }
 
 .pub-list-item {
-  margin-bottom: 1.75rem;
-  padding-bottom: 1.75rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
   border-bottom: 1px solid #eee;
+  line-height: 1.5;
+}
+
+.pub-list-item .btn-xs {
+  margin-left: 4px;
+  vertical-align: baseline;
 }
 
 .pub-list-item:last-of-type {

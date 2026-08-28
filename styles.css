@@ -620,7 +620,24 @@ article {
 }
 
 .pub-list-item {
-  margin-bottom: 40px;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.pub-list-item .pub-title-link {
+  color: #00aaff;
+  transition: color 0.15s ease-in-out;
+}
+
+.pub-list-item .pub-title-link:hover,
+.pub-list-item .pub-title-link:focus {
+  color: #0077b3;
+  text-decoration: underline;
 }
 
 .pub-list-item .pub-abstract {
